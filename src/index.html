@@ -11,10 +11,15 @@
     <link href="./css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="font-mono dark">
+    <!--Dark-Light Toggle-->
+    <div class="absolute top-1 left-5 cursor-pointer text-lg">
+        <i class="text-white" id="sun">AK:P</i>
+        <i class="text-black hidden" id="moon">KARA:P</i>
+    </div>
     <!--Header Section-->
 
-    <header class="bg-black py-6 lg:py-12  text-gray-50 font-serif uppercase">
+    <header class="dark:bg-black bg-white py-6 lg:py-12  dark:text-gray-50 text-black font-serif uppercase">
         <!--Header Container-->
         <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
             <!--Logo-->
@@ -559,13 +564,14 @@
         <div class="basis-1/3">
             <h2 class="mb-2 text-red-800">Follow Us</h2>
             <form action="" class="flex ">
-                <input type="text" class="py-1 px-2 bg-transparent border border-red-600 placeholder:text-xs" placeholder="type your email">
+                <input type="text" class="arin border-red-600 placeholder:text-xs" placeholder="type your email">
                 <button class="py-1 px-2 bg-transparent border border-red-600">Subscribe</button>
             </form>
         </div>
     </div>
 
 </footer>
+<script src="./js/script.js"></script>
 </body>
 
 </html>
